@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+#NavLinks{
+    display: contents ;
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 2rem;
+    color: black;
+}
+
+#Name {
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 2rem;
+    color: black;
+}
+.my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
