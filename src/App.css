@@ -1,3 +1,9 @@
+body{
+background-image: url("./images/26293.jpg") !important;
+border: 2px solid black;
+background-repeat: no-repeat;
+background-size: 100%;
+}
 
 .App {
   text-align: center;

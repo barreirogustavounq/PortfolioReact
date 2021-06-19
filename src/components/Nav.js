@@ -19,7 +19,7 @@ $(document).ready(function () {
 const Nav = () => {
 
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav id="navmain" class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <Link to="/" id="Name" class="navbar-brand">Gustavo <br/> Barreiro</Link>
 
