@@ -4,7 +4,7 @@
     font-family: "Open Sans", sans-serif;
     background-image: linear-gradient( 
 280deg
- , #063968, #0089C9, #53993a);
+ , #011d38, #be1e1e, #4d86d1);
     font-family: sans-serif;
     min-height: 14vh;
     height: 75vh;
@@ -42,11 +42,12 @@ div.form {
     top: -2rem;
   position: relative;
 }
-.input-field:active {color: #8FC924;}
+.input-field:active {color: #100244;}
 
 input, textarea {
     margin-left: 3rem;
     background-color: transparent;
+    color: #fff;
     border: none;
     border-bottom: 1px solid #fff;
     height: 3rem;
@@ -57,7 +58,7 @@ input, textarea {
     font-size: 16px;
 }
 textarea {
-  padding: 1.6rem 0;
+  color: #fff;
 }
 label {
   color: #fff;
@@ -74,7 +75,7 @@ label {
 .btn-block .btn {
   text-decoration: none;
   color: #fff;
-  background-color: #57c631;
+  background-color: #0b0350;
   -webkit-transition: .2s ease-out;
   transition: .2s ease-out;
   cursor: pointer;

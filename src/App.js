@@ -10,7 +10,7 @@ import './App.css'
 
 const Routing = () => {
     return (
-        <div>
+       
             <Switch>
                 <Route exact path="/" component={Home}>
                     <Home />
@@ -25,7 +25,7 @@ const Routing = () => {
                     <About />
                 </Route>
             </Switch>
-        </div>
+      
     );
 };
 function App() {
