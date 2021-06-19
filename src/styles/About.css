@@ -1,3 +1,17 @@
 .mainDiv {
     margin-top: 5%;
 }
+
+.aboutme {
+    width: 60%;
+    text-align: justify;
+    color: aliceblue;
+    font-family: 'Dancing Script';
+    margin-left: 20%;
+}
+
+.tittleAbout {
+    margin-top: 8%;
+    font-family: 'Dancing Script';
+    margin-bottom: 0rem !important; 
+}
