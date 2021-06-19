@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
+
+.contactForm {
+    font-family: "Open Sans", sans-serif;
+    background-image: linear-gradient( 
+280deg
+ , #063968, #0089C9, #53993a);
+    font-family: sans-serif;
+    min-height: 14vh;
+    height: 75vh;
+    border-radius: 2%;
+    margin-top: 7rem;
+    max-width: 50%;
+}
+section {
+  padding: 2em 10px;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2em;
+}
+div.form {
+  width: 100%;
+  max-width: 450px;
+  border: 2px solid #fff;
+  margin: 0 auto;
+  padding: 20px;
+}
+.input-field {
+    position: relative;
+}
+.input-field i {
+  color: #fff; 
+  margin: 0px 1rem;
+  font-size: 25px;
+  width: 25px;
+  position: relative;
+}
+.input-field i.fa-pen {
+    top: -2rem;
+  position: relative;
+}
+.input-field:active {color: #8FC924;}
+
+input, textarea {
+    margin-left: 3rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    height: 3rem;
+    margin: 66px 0 0px 0;
+    transition: all .3s;
+    width: 80%;
+    padding-top: 9px;
+    font-size: 16px;
+}
+textarea {
+  padding: 1.6rem 0;
+}
+label {
+  color: #fff;
+  position: absolute;
+  top: 2.8rem;
+  left: 1.3rem;
+  cursor: text;
+  margin-left: 3rem;
+}
+.btn-block {
+  margin: 0 auto;
+  text-align: center;
+}
+.btn-block .btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #57c631;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  cursor: pointer;
+  border: none;
+  padding: 10px 35px;
+  font-size: 19px;
+  margin-top: 1em;
+  margin-bottom: 1em; 
+}
+.btn-block .btn i {
+  float: right; 
+  padding-left: 10px; 
+  font-size: 16px; 
+  padding-top: 3px;
+}
+@media (max-width: 400px) {
+  div.form {width: 90%; padding: 20px 10px;}
+  input, textarea {width: 73%;}
+  .input-field i {margin: 0px 1rem 0px 0.6rem;}
+  label {left: 0.7rem;}
+}
+
+.divForm{
+    margin-left: 33%;
+}
