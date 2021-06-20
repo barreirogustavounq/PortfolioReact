@@ -12,7 +12,16 @@
 .tec {
     font-family: 'Dancing Script', cursive !important;
     color: rgb(255, 255, 255) !important;
-    margin-left: 29%;
+    margin-left: 33%;
     margin-top: 5%;
-    margin-bottom: -5%;
+    margin-bottom: 0%;
+}
+
+.carousel .carousel-item {
+    visibility: hidden;
+    width: 25%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

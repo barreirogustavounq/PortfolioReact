@@ -50,7 +50,7 @@ const Contact = () => {
 
                             <div class="input-field">
                                 <i class="fas fa-mobile-alt"></i>
-                                <label for="telefono">Teléfono</label>
+                                <label for="email">Teléfono</label>
                                 <input class="inputContact" type="number" name="telefono" value={tel} onChange={(e) => { setTel(e.target.value) }} maxlength="10" title="Debe indicar un telefono válido" required />
                             </div>
 

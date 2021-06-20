@@ -20,8 +20,16 @@ document.addEventListener('DOMContentLoaded', function () {
     var elems = document.querySelectorAll('.carousel');
     var instances = M.Carousel.init(elems);
 });
-
-
+export const CarouselOfImages = (imagesLP) => {
+    const listItems = imagesLP.map((image) =>
+        <a  class="carousel-item"> 
+            <img alt="certificado" src={image} />
+        </a>)
+    return (
+        <div class="carousel">
+                {listItems}
+        </div>)
+}
 
 const Home = () => {   
     const imagesLP = [lp1,lp2,lp3,lp4,lp5,lp6,lp7,lp8,lp9,lp10,lp11,lp12,lp13]
@@ -44,12 +52,12 @@ const Home = () => {
     return (
         <div class="mainDiv">
                 <div class="row">
-                    <div class="col s4">
+                    <div class="col s6 offset-s5">
                         <img id="imageProfile" src={image} alt="Avatar" />
                     </div>
-                    <div class="col s8">
+                    <div class="col s12">
                         <h3 class="tec">Tecnmologias con las cuales he trabajado : </h3>
-                        <Languages/>
+                        {CarouselOfImages(imagesLP)}
                     </div>
                 </div>
                

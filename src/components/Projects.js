@@ -1,11 +1,14 @@
 import React, { useEffect } from "react";
 import "../styles/Projects.css"
 import M from 'materialize-css'
+import { CarouselOfImages } from "./Home"
 
 document.addEventListener('DOMContentLoaded', function () {
-    var elems = document.querySelectorAll('.slider');
-    var instances = M.Slider.init(elems);
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems);
 });
+
+
 
 const Projects = () => {
     const urlCert = ["https://udemy-certificate.s3.amazonaws.com/image/UC-14faba19-b654-4a43-a03a-6b0ae93a2414.jpg",
@@ -22,17 +25,16 @@ const Projects = () => {
         "https://udemy-certificate.s3.amazonaws.com/image/UC-8d70fa1c-1883-4ac9-bc5c-23b212bd2486.jpg"]
     useEffect(() => {
         // imitialize slider
-        var elems = document.querySelectorAll(".slider");
-        var instances = M.Slider.init(elems);
+        var elems = document.querySelectorAll(".carousel");
+        var instances = window.M.Carousel.init(elems);
     }, []);
-
     const Certificados = () => {
         const listItems = urlCert.map((image) =>
             <li>
                 <img alt="certificado" src={image} />
             </li>)
         return (
-            <div class="slider">
+            <div id="navCertificates" class="slider">
                 <ul class="slides">
                     {listItems}
                 </ul>
@@ -41,7 +43,7 @@ const Projects = () => {
     return (
         <div>
             <h3 id="certificatetittle">Certificados obtenidos :</h3>
-            <Certificados />
+            {CarouselOfImages(urlCert)}
         </div>
 
 

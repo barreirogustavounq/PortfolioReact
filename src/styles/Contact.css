@@ -106,6 +106,7 @@ label {
 
 .inputCpntact {
   max-width: 80% !important;
+  overflow: hidden;
 }
 
 .input-field>label {
@@ -124,4 +125,14 @@ label {
   text-align: initial;
   -webkit-transform: translateY(12px);
   transform: translateY(12px);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
