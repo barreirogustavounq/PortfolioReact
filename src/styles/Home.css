@@ -9,3 +9,10 @@
     margin: initial;
 }
 
+.tec {
+    font-family: 'Dancing Script', cursive !important;
+    color: rgb(255, 255, 255) !important;
+    margin-left: 29%;
+    margin-top: 5%;
+    margin-bottom: -5%;
+}

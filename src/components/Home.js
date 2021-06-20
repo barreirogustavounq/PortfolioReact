@@ -13,6 +13,7 @@ import lp9 from "../images/postgres.png"
 import lp10 from "../images/python.png"
 import lp11 from "../images/react.png"
 import lp12 from "../images/redux.png"
+import lp13 from "../images/materialize.png"
 import M from 'materialize-css'
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -23,43 +24,35 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 const Home = () => {   
-
+    const imagesLP = [lp1,lp2,lp3,lp4,lp5,lp6,lp7,lp8,lp9,lp10,lp11,lp12,lp13]
     useEffect(() => {
         // imitialize slider
         var elems = document.querySelectorAll(".carousel");
         var instances = window.M.Carousel.init(elems);
       }, []);
-    const CarouselPL = () => {
+
+      const Languages = () => {
+        const listItems = imagesLP.map((image) =>
+            <a  class="carousel-item"> 
+                <img alt="certificado" src={image} />
+            </a>)
         return (
-        <div class="carousel">
-                <a class="carousel-item"  ><img alt='lenguajes1' src={lp1} /></a>
-                <a class="carousel-item"  ><img alt='lenguajes2' src={lp2} /></a>
-                <a class="carousel-item"  ><img alt='lenguajes3' src={lp3} /></a>
-                <a class="carousel-item"  ><img alt='lenguajes4' src={lp4} /></a>
-                <a class="carousel-item"  ><img alt='lenguajes5' src={lp5} /></a>
-                <a class="carousel-item"  ><img alt='lenguajes6' src={lp6} /></a>
-                <a class="carousel-item"  ><img alt='lenguajes7' src={lp7} /></a>
-                <a class="carousel-item"  ><img alt='lenguajes8' src={lp8} /></a>
-                <a class="carousel-item"  ><img alt='lenguajes9' src={lp9} /></a>
-                <a class="carousel-item"  ><img alt='lenguajes10'src={lp10} /></a>
-                <a class="carousel-item"  ><img alt='lenguajes11'src={lp11} /></a>
-                <a class="carousel-item"  ><img alt='lenguajes12'src={lp12} /></a>
-
-            </div>
-    )
-}
-
+            <div class="carousel">
+                    {listItems}
+            </div>)
+    }
     return (
         <div class="mainDiv">
-
-            <div id="containerHome" class="container">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col s4">
                         <img id="imageProfile" src={image} alt="Avatar" />
                     </div>
+                    <div class="col s8">
+                        <h3 class="tec">Tecnmologias con las cuales he trabajado : </h3>
+                        <Languages/>
+                    </div>
                 </div>
-            </div>
-            <CarouselPL/>
+               
         </div>
     )
 }
