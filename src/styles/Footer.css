@@ -130,8 +130,8 @@
 }
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
-  color:#fff;
-  background-color:#e5eaee
+  color:rgb(0, 0, 0);
+  background-color:#000000
 }
 .social-icons.size-sm a
 {

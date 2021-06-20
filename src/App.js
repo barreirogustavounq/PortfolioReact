@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, useHistory } from 'react-router-dom'
 import About from './components/About';
 import Contact from './components/Contac';
 import Home from './components/Home'
@@ -29,8 +29,9 @@ const Routing = () => {
     );
 };
 function App() {
+    const history = useHistory()
     return (
-            <Router>
+            <Router history={history}>
                 <Nav />
                 <Routing />
                 <Footer />

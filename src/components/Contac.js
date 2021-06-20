@@ -45,19 +45,19 @@ const Contact = () => {
                             <div class="input-field">
                                 <i class="fas fa-user"></i>
                                 <label for="nombre">Nombre</label>
-                                <input type="text" value={name} onChange={(e) => { setName(e.target.value) }} name="nombre" maxlength="50" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ ]{3,23}" title="Debe indicar su nombre correctamente" required />
+                                <input class="inputContact" type="text" value={name} onChange={(e) => { setName(e.target.value) }} name="nombre" maxlength="50" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ ]{3,23}" title="Debe indicar su nombre correctamente" required />
                             </div>
 
                             <div class="input-field">
                                 <i class="fas fa-mobile-alt"></i>
                                 <label for="telefono">Teléfono</label>
-                                <input type="number" name="telefono" value={tel} onChange={(e) => { setTel(e.target.value) }} maxlength="10" title="Debe indicar un telefono válido" required />
+                                <input class="inputContact" type="number" name="telefono" value={tel} onChange={(e) => { setTel(e.target.value) }} maxlength="10" title="Debe indicar un telefono válido" required />
                             </div>
 
                             <div class="input-field">
                                 <i class="fas fa-at"></i>
                                 <label for="email">Email</label>
-                                <input type="email" name="email" value={mail} onChange={(e) => { setMail(e.target.value) }} maxlength="100" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Debe indicar un correo válido" required />
+                                <input class="inputContact" type="email" name="email" value={mail} onChange={(e) => { setMail(e.target.value) }} maxlength="100" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Debe indicar un correo válido" required />
                             </div>
 
                             <div class="input-field">

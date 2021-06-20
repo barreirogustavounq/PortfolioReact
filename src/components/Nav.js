@@ -1,40 +1,36 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 import '../styles/Nav.css'
 import $ from 'jquery'
 
 $(document).ready(function () {
-    $('.nav-link').hover(function () {
-        $(this).addClass('animate__animated animate__jello ');
+    $('a').hover(function () {
+        $(this).addClass('animate__animated animate__fadeIn ');
     }, function () {
-        $(this).removeClass('animate__animated animate__jello');
+        $(this).removeClass('animate__animated animate__fadeIn');
     });
     $('.navbar-brand').hover(function () {
-        $(this).addClass('animate__animated animate__jello ');
+        $(this).addClass('animate__animated animate__fadeIn ');
     }, function () {
-        $(this).removeClass('animate__animated animate__jello');
+        $(this).removeClass('animate__animated animate__fadeIn');
     });
 });
 
 const Nav = () => {
-
+    const history = useHistory()    
     return (
-        <nav id="navmain" class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <Link to="/" id="Name" class="navbar-brand">Gustavo <br/> Barreiro</Link>
+        <nav>
+        <div class="nav-wrapper">
+                <Link onClick={() => history.push('/')} id="Name" class="brand-logo">Gustavo Barreiro</Link>
 
-                    <ul id="NavLinks" class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <Link  to="/" class="nav-link"  >Home</Link>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><Link onClick={() => history.push('/')} >Home</Link>
                         </li>
-                        <li class="nav-item">
-                            <Link  to="/porfolio" class="nav-link ">Portfolio</Link>
+                        <li><Link  onClick={() => history.push('/porfolio')} >Portfolio</Link>
                         </li>
-                        <li class="nav-item">
-                            <Link  to="/contact" class="nav-link ">Contact</Link>
+                        <li><Link  onClick={() => history.push('/contact')}>Contact</Link>
                         </li>
-                        <li class="nav-item">
-                            <Link  to="/about" class="nav-link ">About</Link>
+                        <li><Link  onClick={() => history.push('/about')}>About</Link>
                         </li>
                     </ul>    
                 </div>

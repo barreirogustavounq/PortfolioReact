@@ -1,16 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
 
 .contactForm {
-    font-family: "Open Sans", sans-serif;
-    background-image: linear-gradient( 
-280deg
- , #011d38, #be1e1e, #4d86d1);
-    font-family: sans-serif;
-    min-height: 14vh;
-    height: 75vh;
-    border-radius: 2%;
-    margin-top: 7rem;
-    max-width: 50%;
+  font-family: "Open Sans", sans-serif;
+  
+  min-height: 14vh;
+  height: 70vh;
+  border-radius: 2%;
+  margin-top: 0rem;
+  max-width: 50%;
 }
 section {
   padding: 2em 10px;
@@ -29,7 +26,10 @@ div.form {
   padding: 20px;
 }
 .input-field {
-    position: relative;
+  position: relative;
+  top: 13px;
+  max-width: 80%;
+  margin-left: 10%;
 }
 .input-field i {
   color: #fff; 
@@ -39,7 +39,7 @@ div.form {
   position: relative;
 }
 .input-field i.fa-pen {
-    top: -2rem;
+    top: -5rem;
   position: relative;
 }
 .input-field:active {color: #100244;}
@@ -69,21 +69,23 @@ label {
   margin-left: 3rem;
 }
 .btn-block {
-  margin: 0 auto;
-  text-align: center;
+  margin-top: 2rem;
+    text-align: center;
+    position: relative;
+
 }
 .btn-block .btn {
   text-decoration: none;
   color: #fff;
   background-color: #0b0350;
-  -webkit-transition: .2s ease-out;
   transition: .2s ease-out;
   cursor: pointer;
   border: none;
-  padding: 10px 35px;
+  padding: 0px 23px;
   font-size: 19px;
   margin-top: 1em;
-  margin-bottom: 1em; 
+  margin-bottom: 1em;
+  border-radius: 8%;
 }
 .btn-block .btn i {
   float: right; 
@@ -100,4 +102,26 @@ label {
 
 .divForm{
     margin-left: 33%;
+}
+
+.inputCpntact {
+  max-width: 80% !important;
+}
+
+.input-field>label {
+  color: #ffffff;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  font-size: 1rem;
+  cursor: text;
+  -webkit-transition: color .2s ease-out, -webkit-transform .2s ease-out;
+  transition: color .2s ease-out, -webkit-transform .2s ease-out;
+  transition: transform .2s ease-out, color .2s ease-out;
+  transition: transform .2s ease-out, color .2s ease-out, -webkit-transform .2s ease-out;
+  -webkit-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+  text-align: initial;
+  -webkit-transform: translateY(12px);
+  transform: translateY(12px);
 }

@@ -18,15 +18,6 @@ const About = () => {
                     experiencia laboral en el mundo IT, donde me gustaria poder tener la oportunidad de aplicar los conocimientos adquiridos
                     en la Universidad como tambien de los cursos que he realizado durante todo este tiempo.</h3>
                 <br />
-                <h3>Lo mas preciado que tengo es mi hijo, Mateo, quien al momento que llego a este mundo me cambio la vida
-                    y ya no imagino esa vida sin el.
-                    Mis hobbies son el Futbol, el paddle, ver series, jugar video Juegos.
-                </h3>
-                <br />
-                <h3>
-                    Saludos.
-                </h3>
-
             </div>
         </div>
 
