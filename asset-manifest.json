@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/barreirogustavounq/PortfolioReact/static/css/main.cc42ad61.chunk.css",
+    "main.js": "/barreirogustavounq/PortfolioReact/static/js/main.d75205a9.chunk.js",
+    "main.js.map": "/barreirogustavounq/PortfolioReact/static/js/main.d75205a9.chunk.js.map",
+    "runtime-main.js": "/barreirogustavounq/PortfolioReact/static/js/runtime-main.b8e1d6fa.js",
+    "runtime-main.js.map": "/barreirogustavounq/PortfolioReact/static/js/runtime-main.b8e1d6fa.js.map",
+    "static/js/2.cf4e3032.chunk.js": "/barreirogustavounq/PortfolioReact/static/js/2.cf4e3032.chunk.js",
+    "static/js/2.cf4e3032.chunk.js.map": "/barreirogustavounq/PortfolioReact/static/js/2.cf4e3032.chunk.js.map",
+    "static/js/3.3e5a2082.chunk.js": "/barreirogustavounq/PortfolioReact/static/js/3.3e5a2082.chunk.js",
+    "static/js/3.3e5a2082.chunk.js.map": "/barreirogustavounq/PortfolioReact/static/js/3.3e5a2082.chunk.js.map",
+    "index.html": "/barreirogustavounq/PortfolioReact/index.html",
+    "static/css/main.cc42ad61.chunk.css.map": "/barreirogustavounq/PortfolioReact/static/css/main.cc42ad61.chunk.css.map",
+    "static/js/2.cf4e3032.chunk.js.LICENSE.txt": "/barreirogustavounq/PortfolioReact/static/js/2.cf4e3032.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/barreirogustavounq/PortfolioReact/static/media/26293.aeddff71.jpg",
+    "static/media/css3.7f03bab2.png": "/barreirogustavounq/PortfolioReact/static/media/css3.7f03bab2.png",
+    "static/media/java.5d5cffa0.png": "/barreirogustavounq/PortfolioReact/static/media/java.5d5cffa0.png",
+    "static/media/jquery.eb105fbb.png": "/barreirogustavounq/PortfolioReact/static/media/jquery.eb105fbb.png",
+    "static/media/materialize.813854b6.png": "/barreirogustavounq/PortfolioReact/static/media/materialize.813854b6.png",
+    "static/media/meprofile.72f420a7.jpg": "/barreirogustavounq/PortfolioReact/static/media/meprofile.72f420a7.jpg",
+    "static/media/mongodb.b8501dc4.png": "/barreirogustavounq/PortfolioReact/static/media/mongodb.b8501dc4.png",
+    "static/media/mysql.989b0e9d.png": "/barreirogustavounq/PortfolioReact/static/media/mysql.989b0e9d.png",
+    "static/media/nodejs.e71346fe.png": "/barreirogustavounq/PortfolioReact/static/media/nodejs.e71346fe.png",
+    "static/media/postgres.e818f4e6.png": "/barreirogustavounq/PortfolioReact/static/media/postgres.e818f4e6.png",
+    "static/media/python.885413ea.png": "/barreirogustavounq/PortfolioReact/static/media/python.885413ea.png",
+    "static/media/react.20adfb35.png": "/barreirogustavounq/PortfolioReact/static/media/react.20adfb35.png",
+    "static/media/redux.010fcccb.png": "/barreirogustavounq/PortfolioReact/static/media/redux.010fcccb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8e1d6fa.js",
+    "static/js/2.cf4e3032.chunk.js",
+    "static/css/main.cc42ad61.chunk.css",
+    "static/js/main.d75205a9.chunk.js"
+  ]
+}
