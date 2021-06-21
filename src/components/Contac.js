@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com';
-import { init } from 'emailjs-com';
+import emailjs, { init } from 'emailjs-com';
 import $ from 'jquery'
 import '../styles/Contact.css'
 
