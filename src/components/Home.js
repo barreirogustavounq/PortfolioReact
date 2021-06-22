@@ -38,17 +38,6 @@ const Home = () => {
         var elems = document.querySelectorAll(".carousel");
         var instances = window.M.Carousel.init(elems);
       }, []);
-
-      const Languages = () => {
-        const listItems = imagesLP.map((image) =>
-            <a  class="carousel-item"> 
-                <img alt="certificado" src={image} />
-            </a>)
-        return (
-            <div class="carousel">
-                    {listItems}
-            </div>)
-    }
     return (
         <div class="mainDiv">
                 <div class="row">
