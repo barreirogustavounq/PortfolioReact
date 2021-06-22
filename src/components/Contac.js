@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import emailjs, { init } from 'emailjs-com';
+ import emailjs, { init } from 'emailjs-com';
 import $ from 'jquery'
 import '../styles/Contact.css'
 
@@ -43,25 +43,25 @@ const Contact = () => {
                         <form class="contactForm">
                             <div class="input-field">
                                 <i class="fas fa-user"></i>
-                                <label for="nombre">Nombre</label>
-                                <input class="inputContact" type="text" value={name} onChange={(e) => { setName(e.target.value) }} name="nombre" maxlength="50" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ ]{3,23}" title="Debe indicar su nombre correctamente" required />
+                                <label >Nombre</label>
+                                <input class="inputContact" type="text" value={name} onChange={(e) => { setName(e.target.value) }} name="nombre" maxLength="50" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ ]{3,23}" title="Debe indicar su nombre correctamente" required />
                             </div>
 
                             <div class="input-field">
                                 <i class="fas fa-mobile-alt"></i>
-                                <label for="email">Teléfono</label>
-                                <input class="inputContact" type="number" name="telefono" value={tel} onChange={(e) => { setTel(e.target.value) }} maxlength="10" title="Debe indicar un telefono válido" required />
+                                <label >Teléfono</label>
+                                <input class="inputContact" type="number" name="telefono" value={tel} onChange={(e) => { setTel(e.target.value) }} maxLength="10" title="Debe indicar un telefono válido" required />
                             </div>
 
                             <div class="input-field">
                                 <i class="fas fa-at"></i>
-                                <label for="email">Email</label>
-                                <input class="inputContact" type="email" name="email" value={mail} onChange={(e) => { setMail(e.target.value) }} maxlength="100" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Debe indicar un correo válido" required />
+                                <label >Email</label>
+                                <input class="inputContact" type="email" name="email" value={mail} onChange={(e) => { setMail(e.target.value) }} maxLength="100" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Debe indicar un correo válido" required />
                             </div>
 
                             <div class="input-field">
                                 <i class="fas fa-pen"></i>
-                                <label for="mensaje">Mensaje</label>
+                                <label >Mensaje</label>
                                 <textarea name="mensaje" value={msj} onChange={(e) => { setMsj(e.target.value) }} length="140" required></textarea>
                             </div>
 

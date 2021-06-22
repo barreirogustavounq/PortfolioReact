@@ -1,6 +1,8 @@
 body{
 background-image: url("./images/26293.jpg") !important;
-background-size: 100rem;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
 }
 
 .App {

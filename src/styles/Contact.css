@@ -39,8 +39,7 @@ div.form {
   position: relative;
 }
 .input-field i.fa-pen {
-    top: -5rem;
-  position: relative;
+  position: absolute;
 }
 .input-field:active {color: #100244;}
 
